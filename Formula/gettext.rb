@@ -4,6 +4,7 @@ class Gettext < Formula
   url "https://ftp.gnu.org/gnu/gettext/gettext-0.19.8.1.tar.xz"
   mirror "https://ftpmirror.gnu.org/gettext/gettext-0.19.8.1.tar.xz"
   sha256 "105556dbc5c3fbbc2aa0edb46d22d055748b6f5c7cd7a8d99f8e7eb84e938be4"
+  head "https://git.savannah.gnu.org/git/gettext.git"
 
   bottle do
     sha256 "afc6a6120632b98d58b11fab82ae5e081206b89684dd948abf2d29caeb813ffd" => :mojave
